@@ -12,7 +12,7 @@ jobs:
       
       - uses: subosito/flutter-action@v2
         with:
-          flutter-version: '3.24.0' # <--- Yangiroq Flutter versiyasini ko'rsatamiz
+          flutter-version: '3.19.6'
           channel: 'stable'
           
       - run: flutter pub get

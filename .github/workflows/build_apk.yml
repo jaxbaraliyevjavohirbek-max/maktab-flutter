@@ -12,7 +12,7 @@ jobs:
       
       - uses: subosito/flutter-action@v2
         with:
-          flutter-version: '3.19.6' # <--- '3.x' o'rniga shuni yozing
+          flutter-version: 'stable' # <--- Flutter eng oxirgi barqaror versiyasini avtomatik oladi
           channel: 'stable'
           
       - run: flutter pub get
